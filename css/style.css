@@ -1,0 +1,19 @@
+.debug [class*="col-"]{
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.container *{
+  height: 200px;
+  background-color: #FEC0CB;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+}
+
+.container .col-6 .container *{
+  padding: 5px;
+  background: #F08080;
+  border: 1px solid white;
+  transform: scale(0.99);
+}
